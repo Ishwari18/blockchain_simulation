@@ -19,7 +19,14 @@ Before you begin, make sure you have the following installed:
 - **Node.js**: Version 14 or higher
 - **npm** (Node Package Manager): Installed with Node.js
 
-You can verify your installations by running:
-```bash
-node -v
-npm -v
+### Explanation of Updates
+1. **Backend Instructions**: 
+   - Added instructions for starting the backend using `nodemon` (`nodemon server.js`), which automatically restarts the server on file changes.
+   - Recommended installing `nodemon` globally if it's not installed.
+   
+2. **Frontend Instructions**:
+   - Explicitly mentioned that after running the backend, you should open `index.html` in a browser to interact with the app.
+
+---
+
+This updated `README.md` now guides users to run the backend using `nodemon` for live reloading and to test the application by opening the frontend `index.html` in the browser.
