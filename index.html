@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blockchain Simulation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Blockchain Simulation</h1>
+        <div>
+            <h2>Blockchain</h2>
+            <button id="refresh">Refresh Blockchain</button>
+            <pre id="blockchain"></pre>
+        </div>
+        <div>
+            <h2>Add Block</h2>
+            <input type="text" id="transactions" placeholder="Enter transactions" />
+            <button id="addBlock">Add Block</button>
+        </div>
+        <div>
+            <h2>Validate Blockchain</h2>
+            <button id="validate">Validate Blockchain</button>
+            <p id="validationResult"></p>
+        </div>
+        <div>
+            <h2>Tamper with Blockchain</h2>
+            <input type="number" id="blockIndex" placeholder="Enter block index" />
+            <input type="text" id="newTransactions" placeholder="Enter new transactions" />
+            <button id="tamperBlock">Tamper Block</button>
+            <p id="tamperResult"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
